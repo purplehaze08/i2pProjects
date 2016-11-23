@@ -1,93 +1,74 @@
 ##Variable area
-topicsList =["Animals", "Video games", "Memes", "Languages", "Science", "Music"]
+topicsList =["Animals", "Video games", "Memes", "Languages", "Science", "Music", "Technology"]
 playerScore = 0
-
-def easyQuiz():
-    #Local variable in easyQuiz
-    q1E = input("")
-    q1EA = ""
-    q2E = input("")
-    q2EA = ""
-    q3E = input("")
-    q3EA = ""
-    q4E = input("")
-    q4EA = ""
-    q5E = input("")
-    q5EA = ""
-    q6E = input("")
-    q6EA = ""
-    q7E = input("")
-    q7EA = ""
-    q8E = input("")
-    q8EA = ""
-    q9E = input("")
-    q9EA = ""
-    q10E = input("")
-    q10EA = ""
-    q11E = input("")
-    q11EA = ""
-    q12E = input("")
-    q12EA = ""
-    q13E = input("")
-    q13EA = ""
-    q14E = input("")
-    q14EA = ""
-    q15E = input("")
-    q15EA = ""
-    sadf = 0
-    while sadf == 0:
-        q1E = input()
+textfile = open("quizEasy.txt")
+#Answer for all easy questions
+q1EA = "D"
+q2EA = "A"
+q3EA = "B"
+q4EA = "D"
+q5EA = "A"
+q6EA = "D"
+q7EA = "A"
+q8EA = "B"
+q9EA = "D"
+q10EA = "C"
+q11EA = "B"
+q12EA = "A"
+q13EA = "A"
+q14EA = "D"
+q15EA = "A" or "B" or "C" or "D"
 
 ##open text file
 #textfile = "Quiz.txt"
 #file = open("Quiz.txt", "r")
-#print file.read()
+#print(file.read(0,4))
+#probably needs loop as the shell
+
+#Answer for all hard questions
+q1HA = ""
+q2HA = ""
+q3HA = ""
+q4HA = ""
+q5HA = ""
+q6HA = ""
+q7HA = ""
+q8HA = ""
+q9HA = ""
+q10HA = ""
+q11HA = ""
+q12HA = ""
+q13HA = ""
+q14HA = ""
+q15HA = ""
+
+def easyQuiz():
+    print("Welcome to the easy quiz!")
+    global textfile
+    for line in range(1,6):
+        file = open(textfile, "r")
+        print(file.read())
+
 
 def hardQuiz():
-    #Local variable in hardQuiz
-    q1H = input("")
-    q1HA = ""
-    q2H = input("")
-    q2HA = ""
-    q3H = input("")
-    q3HA = ""
-    q4H = input("")
-    q4HA = ""
-    q5H = input("")
-    q5HA = ""
-    q6H = input("")
-    q6HA = ""
-    q7H = input("")
-    q7HA = ""
-    q8H = input("")
-    q8HA = ""
-    q9H = input("")
-    q9HA = ""
-    q10H = input("")
-    q10HA = ""
-    q11H = input("")
-    q11HA = ""
-    q12H = input("")
-    q12HA = ""
-    q13H = input("")
-    q13HA = ""
-    q14H = input("")
-    q14HA = ""
-    q15H = input("")
-    q15HA = ""
-
+    print("Welcome to the hard quiz!")
 ##Running the quiz
 import time
+from datetime import datetime
+now = datetime.now()
+print('%s/%s/%s %s:%s:%s'% (now.day, now.month, now.year, now.hour, now.minute, now.second))
+
 playerName = input("Please enter your name.")
-print("Welcome to the quiz!", playerName, "There are 6 topics:", topicsList)
+print("Welcome to the quiz!", playerName, "There are 7 topics:", topicsList)
 time.sleep(2)
 print("""And there are 15 questions from those topics above and they are chosen at random depending on the difficulty you choose.""")
 print("You will receive 1 point for each correct answer.")
 
-playerDifficulty = input("Please choose your difficulty: Easy or Hard.")
-playerDifficulty = playerDifficulty.lower()
+
 loop = 1
 while loop < 5:
+    playerDifficulty = input("Please choose your difficulty: Easy or Hard.")
+    playerDifficulty = playerDifficulty.lower()
     if playerDifficulty == "easy":
         print("You chose to do the Easy quiz, which will start now.")
         time.sleep(2)
@@ -101,4 +82,6 @@ while loop < 5:
         break
 
     else:
-        print("Choose a valid input(easy or hard).")
+        print("Choose a valid input(Easy or Hard).")
+        continue
+

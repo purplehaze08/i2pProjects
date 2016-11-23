@@ -1,35 +1,87 @@
-Which national team won the first Overwatch world cup?
+Q1. Which national team won the first Overwatch world cup?
 A. South Korea
 B. America
 C. Sweden
 D. Finnland
 
-Songs by Jimi Hendrix except
+Q2. Songs by Jimi Hendrix except:
 A. Purple haze
 B. All along the watchtower
 C. Hey joe
 D. Stone free
 
-Song by queen
+Q3. Song by queen:
 A. Another one bites the dust
 B. Man in the mirror
 C. Highway to hell
 D. Sticky fingers
 
-What is the conjugation of “nous se leve”?
+Q4. What is the conjugation of “nous se leve”?
 A. Nous leve
 B. Nous levons
 C. Nous levez
 D. Nous leves
 
-The einsatzgruppen was
+Q5. The einsatzgruppen was:
 A. An anti terrorism unit
 B. Nazi death squad
 C. Special unit of the imperial italian army
 D. Gobbels incarnate
 
-The sheep Dolly was cloned in
+Q6. The sheep Dolly was cloned in:
 A. 1993
 B. 1996
 C. 1999
 D. 2000
+
+Q7. Platypus is a:
+A. Mammal
+B. Reptile
+C. Both
+
+Q8. English is a West Germanic language that originated from:
+A. German
+B. Latin
+C. French
+D. Anglo-Frisian
+
+Q9. The time of Metal Gear Solid V Phantom Pain is set after:
+A. Peace Walker
+B. Sons of Liberty
+C. Metal Gear
+D. Snake Eater
+
+Q10. Mrs. Robinson is a song by:
+A. Don McLean
+B. Simon & Garfunkel
+C. Imagine Dragons
+D. John Lennon
+
+Q11. There is currently:
+A. Cure for all cold viruses
+B. No cure for all cold viruses
+
+Q12. Investment and interest in Artificial Intelligence boomed in the:
+A. 18th Century
+B. 19th Century
+C. 20th Century
+D. 21th Century
+
+Q13. Feels So Good by Chuck Mangione is a 1977 ____ album that reached the top of the Billboard adult contemporary chart.
+A. Rock
+B. Jazz
+C. Power pop
+D. Country
+
+Q14. Which of the bellow is the only mammal that can fly?
+A. Bald Eagle
+B. Bat
+C. Crow
+D. Ostrich
+
+Q15. How do you beat games from the Dark Souls series?
+A. Git gud
+B. Git gud
+C. Git gud
+D. Git gud
+
