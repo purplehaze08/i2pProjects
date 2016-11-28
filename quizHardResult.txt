@@ -1,0 +1,5 @@
+
+Player name: Harry Sun
+Difficulty: hard
+Points: 15
+Wrong answers: 0

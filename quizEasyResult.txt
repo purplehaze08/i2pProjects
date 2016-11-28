@@ -1,0 +1,11 @@
+
+Player name: Cheng Xi
+Difficulty: easy
+Points: 10
+Wrong answers: 5
+
+
+Player name: Harry
+Difficulty: easy
+Points: 15
+Wrong answers: 0
